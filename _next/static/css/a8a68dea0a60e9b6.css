@@ -1,0 +1,326 @@
+@font-face {
+  font-family: Haffer;
+  font-style: normal;
+  font-weight: 200;
+  src: url(/_next/static/media/Haffer-Light.b477605d.ttf);
+}
+@font-face {
+  font-family: Haffer;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/_next/static/media/Haffer-Medium.346806bf.ttf);
+}
+@font-face {
+  font-family: Haffer;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/_next/static/media/Haffer-Regular.c817e5bb.ttf);
+}
+@font-face {
+  font-family: Haffer;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/_next/static/media/Haffer-SemiBold.91cde02e.ttf);
+}
+@font-face {
+  font-family: HafferSQ;
+  font-style: normal;
+  font-weight: 200;
+  src: url(/_next/static/media/HafferSQ-Light.fffcd265.ttf);
+}
+@font-face {
+  font-family: HafferSQ;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/_next/static/media/HafferSQ-Medium.f24d6174.ttf);
+}
+@font-face {
+  font-family: HafferSQ;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/_next/static/media/HafferSQ-Regular.a2e57369.ttf);
+}
+@font-face {
+  font-family: HafferSQ;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/_next/static/media/HafferSQ-SemiBold.79762b5f.ttf);
+}
+@font-face {
+  font-family: TTCommonsPro;
+  font-style: normal;
+  font-weight: 200;
+  src: url(/_next/static/media/TTCommonsProMonoMedium.4d787b95.ttf);
+}
+@font-face {
+  font-family: TTCommonsPro;
+  font-style: normal;
+  font-weight: 100;
+  src: url(/_next/static/media/TTCommonsProMonoRegular.957ae5e4.ttf);
+}
+@font-face {
+  font-family: FiraCode;
+  src: url(/_next/static/media/FiraCode_VariableFont_wght.5820eaaa.ttf);
+}
+@font-face {
+  font-family: DM Mono;
+  src: url(/_next/static/media/DMMono-Regular.bddf831d.ttf);
+}
+:root {
+  --toastify-color-info: #3498db;
+  --toastify-color-success: #5ba87e;
+  --toastify-color-warning: #f1c40f;
+  --toastify-color-error: #d15168;
+}
+html {
+  --background-default: #111;
+  --background-paper: #050404;
+  --text-primary: #e0e0e0;
+  --text-secondary: #767676;
+  --primary-main: #f2f2f2;
+  --primary-contrastText: #000;
+  --primary-light: #fff;
+  --secondary-main: #1c1c1c;
+  --secondary-light: #222;
+  --secondary-contrastText: #fff;
+  --info-main: #a77dff;
+  --success-main: #8ae06c;
+  --error-main: #f56868;
+  --warning-main: #f1df38;
+  --border-primary: #292929;
+  --border-secondary: #3a3a3a;
+  --border-color: #262626;
+  --hover-primary: #fff;
+  --wallet-bg-overlay: hsla(0, 0%, 100%, 0.7);
+  --text-primary-kh: var(--grey-100);
+  --text-secondary-kh: var(--grey-500);
+  --bg-primary-kh: var(--black);
+  --border-dashed-primary-kh: var(--grey-500);
+  --border-solid-kh: var(--grey-700);
+  --contrast-50-kh: var(--grey-900);
+  --contrast-100-kh: var(--grey-800);
+  --contrast-200-kh: var(--grey-700);
+  --contrast-400-kh: var(--grey-600);
+  --highlight-color-kh: #e9f4a4;
+}
+:root {
+  --white: #fff;
+  --grey-200: #f1f3f4;
+  --grey-400: #bdc1c6;
+  --grey-600: #2e3134;
+  --grey-800: #17181b;
+  --black: #000;
+  --grey-100: #f8f9fa;
+  --grey-300: #dbdde1;
+  --grey-500: #5f6368;
+  --grey-700: #282a2d;
+  --grey-900: #0e1013;
+}
+html.light {
+  --background-default: #fff;
+  --background-paper: #fff;
+  --text-primary: #292929;
+  --text-secondary: #e0e0e0;
+  --primary-main: #2f46f4;
+  --primary-contrastText: #fff;
+  --primary-light: #4257f5;
+  --secondary-main: #e3e3e3;
+  --secondary-light: #dadada;
+  --secondary-contrastText: #000;
+  --info-main: #2f46f4;
+  --success-main: #49c24e;
+  --error-main: #d93737;
+  --warning-main: #eeac3c;
+  --border-primary: #262626;
+  --border-secondary: #3a3a3a;
+  --border-color: #262626;
+  --hover-color: #bababa;
+  --wallet-bg-overlay: rgba(0, 0, 0, 0.7);
+  --text-primary-kh: var(--grey-900);
+  --text-secondary-kh: var(--grey-500);
+  --bg-primary-kh: var(--white);
+  --border-dashed-primary-kh: var(--grey-900);
+  --border-solid-kh: var(--grey-300);
+  --contrast-50-kh: var(--grey-100);
+  --contrast-100-kh: var(--grey-200);
+  --contrast-200-kh: var(--grey-300);
+  --contrast-400-kh: var(--grey-600);
+  --highlight-color-kh: #e9f4a4;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body {
+  -webkit-text-size-adjust: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#root,
+html {
+  background-color: var(--background-default);
+  color: var(--text-primary);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  letter-spacing: 3%;
+  line-height: 180%;
+  width: 100%;
+}
+@media (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+  html {
+    background-color: var(--background-paper);
+  }
+}
+body {
+  font-family: Haffer;
+  font-weight: 200;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+a,
+button,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+.katex {
+  font-size: 2em;
+}
+.math.math-display {
+  display: block;
+  text-align: center;
+}
+.layout_no_scroll__yJaey {
+  overflow: hidden;
+}
+.layout_body_container__q8Oiv,
+.layout_html_container__LIkV6,
+.layout_main_container__1pGaq {
+  background-color: var(--background-default);
+}

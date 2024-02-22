@@ -1,0 +1,26 @@
+.page_container__iYAPm {
+  scroll-behavior: smooth;
+}
+.page_e8_canvas__PFz0E {
+  display: flex;
+  position: sticky;
+  top: 104px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  z-index: 0;
+}
+@media (max-width: 700px) {
+  .page_e8_canvas__PFz0E {
+    position: fixed;
+    z-index: 0;
+  }
+}
+.page_footer_container__MB8YO {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
