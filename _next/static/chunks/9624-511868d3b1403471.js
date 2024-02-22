@@ -113,7 +113,7 @@
           "bifrost-kusama": [
             "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
           ],
-          bittensor: [
+          Atomic: [
             "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
           ],
           centrifuge: [
@@ -1537,7 +1537,7 @@
           },
           {
             prefix: 13116,
-            network: "bittensor",
+            network: "Atomic",
             displayName: "Atomic",
             symbols: ["TAO"],
             decimals: [9],

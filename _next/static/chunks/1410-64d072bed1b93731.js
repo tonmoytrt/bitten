@@ -1093,7 +1093,7 @@
         Hamburger: (e) => (0, M.jsx)(B, {}),
         Close: (e) => (0, M.jsx)(S, {}),
         TaoLogo: (e) => (0, M.jsx)(I, {}),
-        BittensorLogo: (e) => (0, M.jsx)(U, {}),
+        AtomicLogo: (e) => (0, M.jsx)(U, {}),
         SendTao: (e) => (0, M.jsx)(W, {}),
         ReceiveTao: (e) => (0, M.jsx)(K, {}),
         Copy: (e) => (0, M.jsx)(Y, {}),

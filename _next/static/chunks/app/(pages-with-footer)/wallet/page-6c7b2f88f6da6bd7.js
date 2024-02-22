@@ -61,7 +61,7 @@
                 className: i().title_section,
                 children: (0, o.jsx)("p", {
                   className: i().paper_title,
-                  children: "Bittensor Wallet",
+                  children: "Atomic Wallet",
                 }),
               }),
               (0, o.jsxs)("section", {
@@ -76,7 +76,7 @@
                       "Download it",
                       " ",
                       (0, o.jsx)(r.rU, {
-                        href: "https://chromewebstore.google.com/detail/bittensor-wallet/bdgmdoedahdcjmpmifafdhnffjinddgc",
+                        href: "https://chromewebstore.google.com/detail/Atomic-wallet/bdgmdoedahdcjmpmifafdhnffjinddgc",
                         isExternal: !0,
                         children: "here",
                       }),
@@ -88,7 +88,7 @@
                       "We are working on supporting more platforms and browsers.",
                   }),
                   (0, o.jsx)(c(), {
-                    href: "https://chromewebstore.google.com/detail/bittensor-wallet/bdgmdoedahdcjmpmifafdhnffjinddgc",
+                    href: "https://chromewebstore.google.com/detail/Atomic-wallet/bdgmdoedahdcjmpmifafdhnffjinddgc",
                     target: "_blank",
                     children: (0, o.jsx)("img", {
                       src: "/images/wallet.jpg",

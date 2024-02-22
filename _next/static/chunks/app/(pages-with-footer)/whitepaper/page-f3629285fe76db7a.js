@@ -105,14 +105,14 @@
                 children: [
                   (0, i.jsx)("p", {
                     className: r().paper_title,
-                    children: "Bittensor: A Peer-to-Peer Intelligence Market",
+                    children: "Atomic: A Peer-to-Peer Intelligence Market",
                   }),
                   (0, i.jsx)("p", {
                     className: r().subtitle,
                     children: "YUMA RAO",
                   }),
                   (0, i.jsx)(l(), {
-                    src: "/images/icons/double-tao-logo.svg",
+                    src: "/images/icons/double-tao-logo.png",
                     width: 40,
                     height: 40,
                     alt: "double tao logo",

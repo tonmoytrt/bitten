@@ -3479,7 +3479,7 @@
               return (
                 (t.toNode = function () {
                   var e = document.createElementNS(
-                    "http://www.w3.org/2000/svg",
+                    "/images/icons/double-tao-logo.svg",
                     "svg"
                   );
                   for (var t in this.attributes)
@@ -3490,7 +3490,7 @@
                   return e;
                 }),
                 (t.toMarkup = function () {
-                  var e = '<svg xmlns="http://www.w3.org/2000/svg"';
+                  var e = '<svg xmlns="/images/icons/double-tao-logo.svg"';
                   for (var t in this.attributes)
                     Object.prototype.hasOwnProperty.call(this.attributes, t) &&
                       (e += " " + t + "='" + this.attributes[t] + "'");
@@ -3513,7 +3513,7 @@
               return (
                 (t.toNode = function () {
                   var e = document.createElementNS(
-                    "http://www.w3.org/2000/svg",
+                    "/images/icons/double-tao-logo.svg",
                     "path"
                   );
                   return (
@@ -3539,7 +3539,7 @@
               return (
                 (t.toNode = function () {
                   var e = document.createElementNS(
-                    "http://www.w3.org/2000/svg",
+                    "/images/icons/double-tao-logo.svg",
                     "line"
                   );
                   for (var t in this.attributes)

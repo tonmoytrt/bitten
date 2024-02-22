@@ -41,7 +41,7 @@
                 children: [
                   (0, n.jsx)("p", {
                     className: a().paper_title,
-                    children: "Bittensor Paradigm",
+                    children: "Atomic Paradigm",
                   }),
                   (0, n.jsx)("p", {
                     className: a().subtitle,
@@ -59,20 +59,20 @@
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "Bittensor's vision for a decentralized AI company has captivated a large number of people in the arenas of Artificial Intelligence and computer science, who have yearned for an alternative to the top-down world being created by our current technology giants. However the promise of what Bittensor is and can be has been masked by large technical barriers to understanding, and thus has not been well digested by non-technical audiences.",
+                      "Atomic's vision for a decentralized AI company has captivated a large number of people in the arenas of Artificial Intelligence and computer science, who have yearned for an alternative to the top-down world being created by our current technology giants. However the promise of what Atomic is and can be has been masked by large technical barriers to understanding, and thus has not been well digested by non-technical audiences.",
                   }),
                   (0, n.jsxs)("p", {
                     children: [
                       "The purpose of this article is to answer",
                       (0, n.jsx)("strong", {
                         children:
-                          " why Bittensor matters to the world, why you should care ",
+                          " why Atomic matters to the world, why you should care ",
                       }),
                       " and",
                       (0, n.jsx)("strong", {
                         children: " why we need to build it together",
                       }),
-                      ". These are core questions, and each of them will require that we delve into the history of cryptocurrency, and how Bittensor is uniquely positioned to play a significant role in the future that is being written today.",
+                      ". These are core questions, and each of them will require that we delve into the history of cryptocurrency, and how Atomic is uniquely positioned to play a significant role in the future that is being written today.",
                     ],
                   }),
                 ],
@@ -94,32 +94,32 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor is essentially a language for writing numerous decentralized commodity markets, or 'subnets', situated under a unified token system. These distinct markets function through Bittensor's blockchain, allowing each to interact and join into a singular computing infrastructure. By analogy, Bittensor brings the same type of abstraction which Ethereum added to Bitcoin for running decentralized contracts, but onto Bitcoin's inverse innovation — ",
+                      "Atomic is essentially a language for writing numerous decentralized commodity markets, or 'subnets', situated under a unified token system. These distinct markets function through Atomic's blockchain, allowing each to interact and join into a singular computing infrastructure. By analogy, Atomic brings the same type of abstraction which Ethereum added to Bitcoin for running decentralized contracts, but onto Bitcoin's inverse innovation — ",
                       (0, n.jsx)("i", { children: "digital markets" }),
                       ".",
                     ],
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "Compared to Bitcoin and other cryptocurrencies attempting to leverage the digital marketplace, Bittensor has built a framework that provides ease for creating these viable and enormously powerful systems. However, its genius lies in the fact that every one of these inter-networked markets is connectable, and available, to the whole. Building a hierarchical web of resources, ultimately culminating in the production of intelligence; intelligence leverages computation, which leverages data, which leverages storage, then finally leveraging oracles and data procurement and into infinity, all within the same ecosystem.",
+                      "Compared to Bitcoin and other cryptocurrencies attempting to leverage the digital marketplace, Atomic has built a framework that provides ease for creating these viable and enormously powerful systems. However, its genius lies in the fact that every one of these inter-networked markets is connectable, and available, to the whole. Building a hierarchical web of resources, ultimately culminating in the production of intelligence; intelligence leverages computation, which leverages data, which leverages storage, then finally leveraging oracles and data procurement and into infinity, all within the same ecosystem.",
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "This is Bittensor's overarching vision; directing the power of digital markets towards society's most important digital commodity - Artificial Intelligence. Not only to build the most powerful intelligence network, but also to ensure that the benefits and ",
+                      "This is Atomic's overarching vision; directing the power of digital markets towards society's most important digital commodity - Artificial Intelligence. Not only to build the most powerful intelligence network, but also to ensure that the benefits and ",
                       (0, n.jsx)("i", { children: "the ownership" }),
                       " of machine intelligence are in the hands of mere mortals. Bottom up, rather than top down.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor's goal and function of this technological foundation has several implications. For developers, a language to write markets for bespoke commodities such as compute, allowing them to take advantage of the enormous size, cost-efficiency and natural functionality of decentralized market systems. For front-end customers, Bittensor offers access to resources at a cheaper price and without intermediary;",
+                      "Atomic's goal and function of this technological foundation has several implications. For developers, a language to write markets for bespoke commodities such as compute, allowing them to take advantage of the enormous size, cost-efficiency and natural functionality of decentralized market systems. For front-end customers, Atomic offers access to resources at a cheaper price and without intermediary;",
                       (0, n.jsx)("i", { children: "unclosable" }),
-                      ", not falsely self-proclaimed as “open”. For the Bittensor network as a whole, to create Machine Intelligence, in an open and equitable manner on top of ordered and dependent sub-markets. And finally - for the world, to ensure that the supremely important commodity of intelligence is owned by everyone.",
+                      ", not falsely self-proclaimed as “open”. For the Atomic network as a whole, to create Machine Intelligence, in an open and equitable manner on top of ordered and dependent sub-markets. And finally - for the world, to ensure that the supremely important commodity of intelligence is owned by everyone.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor is, in a similar way, also a computer - albeit one with differing problems such as market misalignments - but one that is ",
+                      "Atomic is, in a similar way, also a computer - albeit one with differing problems such as market misalignments - but one that is ",
                       (0, n.jsx)("i", { children: "programmable" }),
                       ", with the potential to become the most powerful ever created. And, it is a ",
                       (0, n.jsx)("i", { children: "shared" }),
@@ -135,22 +135,22 @@
                 children: [
                   (0, n.jsx)("p", {
                     className: a().subtitle,
-                    children: "Understanding Bittensor",
+                    children: "Understanding Atomic",
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Understanding Bittensor is difficult for the exact same reason that it is powerful. This is because the majority of Bittensor's computational power is not concretely defined, but instead abstracted ",
+                      "Understanding Atomic is difficult for the exact same reason that it is powerful. This is because the majority of Atomic's computational power is not concretely defined, but instead abstracted ",
                       (0, n.jsx)("i", { children: "underneath markets" }),
-                      ". For instance, Bittensor leverages machine learning models to produce intelligence products, but Bittensor also leverages physical storage to create storage products. Meanwhile, it does",
+                      ". For instance, Atomic leverages machine learning models to produce intelligence products, but Atomic also leverages physical storage to create storage products. Meanwhile, it does",
                       (0, n.jsx)("i", { children: " not define" }),
-                      " the specifics of how these resources are produced. Instead, Bittensor simply defines ",
+                      " the specifics of how these resources are produced. Instead, Atomic simply defines ",
                       (0, n.jsx)("i", { children: "the market" }),
                       " which will reward those commodities for becoming available to the network.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Abstractions like this are the crucial element to how Bittensor is able to leverage enormous swaths of resources: without defining the way in which a computer interacts with Bittensor's markets, the market leaves space for innovation around",
+                      "Abstractions like this are the crucial element to how Atomic is able to leverage enormous swaths of resources: without defining the way in which a computer interacts with Atomic's markets, the market leaves space for innovation around",
                       " ",
                       (0, n.jsx)("i", { children: " how " }),
                       "that problem will be solved. In other words, without directly purchasing or inventing the computers that plug themselves into the network, that problem is left to thousands of incredibly talented individuals all across the Earth, who achieve that aim in various and creative ways.",
@@ -163,11 +163,11 @@
                 children: [
                   (0, n.jsx)("p", {
                     className: a().subtitle,
-                    children: "Bittensor vs Bitcoin",
+                    children: "Atomic vs Bitcoin",
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "As a good starting point for understanding how the rubber hits the road, we can start by comparing Bittensor to Bitcoin. We use Bitcoin as it is the ultimate example of digital markets in action, and has the benefit of being well understood by many already.",
+                      "As a good starting point for understanding how the rubber hits the road, we can start by comparing Atomic to Bitcoin. We use Bitcoin as it is the ultimate example of digital markets in action, and has the benefit of being well understood by many already.",
                   }),
                   (0, n.jsx)("p", {
                     children:
@@ -206,26 +206,26 @@
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "Bittensor is like Bitcoin in many ways. It has a transferrable and censorship resistant token, TAO, which runs on a 24/7 decentralized blockchain substrate which is auditable and transparent. Bittensor is also run by miners, like Bitcoin, who can exist globally and anonymously.",
+                      "Atomic is like Bitcoin in many ways. It has a transferrable and censorship resistant token, TAO, which runs on a 24/7 decentralized blockchain substrate which is auditable and transparent. Atomic is also run by miners, like Bitcoin, who can exist globally and anonymously.",
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "Importantly and conversely, Bittensor utilizes these same advantages of Bitcoin, which has incentivized its compute network to grow enormously. For instance, when a market is defined on Bittensor, miners worldwide continuously and aggressively find ways at reducing the cost to mine TAO on that market; they purchase hardware, stay up all night, and find every way to reduce costs. Procuring all available resources whether from their own home, or from datacenters worldwide, both known and unknown - all to create the digital product of intelligence, or anything and everything the network defines. In essence, we leverage the same killer app.",
+                      "Importantly and conversely, Atomic utilizes these same advantages of Bitcoin, which has incentivized its compute network to grow enormously. For instance, when a market is defined on Atomic, miners worldwide continuously and aggressively find ways at reducing the cost to mine TAO on that market; they purchase hardware, stay up all night, and find every way to reduce costs. Procuring all available resources whether from their own home, or from datacenters worldwide, both known and unknown - all to create the digital product of intelligence, or anything and everything the network defines. In essence, we leverage the same killer app.",
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Where Bittensor differs primarily is the product. Whilst Bitcoin focuses exclusively on the importance of ensuring Bitcoin's ",
+                      "Where Atomic differs primarily is the product. Whilst Bitcoin focuses exclusively on the importance of ensuring Bitcoin's ",
                       (0, n.jsx)("i", { children: "total resistance" }),
-                      " to exterior actors and the immutability of its token economic system, Bittensor focuses primarily on building value-creating markets.",
+                      " to exterior actors and the immutability of its token economic system, Atomic focuses primarily on building value-creating markets.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Focusing here; the Bittensor paradigm is about being a network, computer and language for ",
+                      "Focusing here; the Atomic paradigm is about being a network, computer and language for ",
                       (0, n.jsx)("i", { children: "writing systems" }),
                       ", alongside the market which created Bitcoin's gargantuan size. However, they fundamentally differ in ",
                       (0, n.jsx)("i", { children: "how" }),
-                      " they use these resources. Where Bitcoin simply secures its network by creating one trivial product (namely SHA-256 Hashes - which are unusable and not readily transferable into any real problem), Bittensor doubles down, allowing the building of multiple intertwined and complementary sub incentive systems, which build out commodities, like data or bandwidth, with real-world, applicable value, culminating ultimately, in",
+                      " they use these resources. Where Bitcoin simply secures its network by creating one trivial product (namely SHA-256 Hashes - which are unusable and not readily transferable into any real problem), Atomic doubles down, allowing the building of multiple intertwined and complementary sub incentive systems, which build out commodities, like data or bandwidth, with real-world, applicable value, culminating ultimately, in",
                       (0, n.jsx)("i", { children: " intelligence" }),
                       ".",
                     ],
@@ -237,18 +237,18 @@
                 children: [
                   (0, n.jsx)("p", {
                     className: a().subtitle,
-                    children: "Bittensor's Core Tech",
+                    children: "Atomic's Core Tech",
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Arguably, Bittensor's core technological innovation is the ",
+                      "Arguably, Atomic's core technological innovation is the ",
                       (0, n.jsx)("i", { children: "separation" }),
                       " of the chain's core functioning (transferring funds etc.) from the running of the validation systems which define the markets for its digital commodity creation. This is distinct from Bitcoin, Ethereum, Filecoin and most every digital commodity system on the market today",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Because of this separation, Bittensor does not need to have a special purpose language for writing these validation systems. They can be written in Rust, Python, C++, or any other programming language. Furthermore,",
+                      "Because of this separation, Atomic does not need to have a special purpose language for writing these validation systems. They can be written in Rust, Python, C++, or any other programming language. Furthermore,",
                       (0, n.jsx)("i", {
                         children:
                           " all of the tools required for validating the subnet mechanisms remain off-chain",
@@ -258,7 +258,7 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "For instance, in Bittensor's flagship commodity market, Subnet 1, intelligence providers are validated for answering queries using a machine learning model. Those outputs are ",
+                      "For instance, in Atomic's flagship commodity market, Subnet 1, intelligence providers are validated for answering queries using a machine learning model. Those outputs are ",
                       (0, n.jsx)("i", { children: "themselves" }),
                       " validated using machine learning models, expensive and large ones, which can subsequently learn and be adapted",
                       (0, n.jsx)("i", {
@@ -272,7 +272,7 @@
                     children: [
                       "What makes this possible is Yuma Consensus (YC). ",
                       (0, n.jsx)("strong", { children: "Yuma Consensus" }),
-                      " is the mechanism Bittensor runs on its chain, to enforce that there is agreement between the validators of the individual sub mechanisms in Bittensor's network. By analogy, Yuma Consensus is the central processing unit (CPU) of Bittensor. YC takes the varying incentive mechanisms written by developers and transforms them into an",
+                      " is the mechanism Atomic runs on its chain, to enforce that there is agreement between the validators of the individual sub mechanisms in Atomic's network. By analogy, Yuma Consensus is the central processing unit (CPU) of Atomic. YC takes the varying incentive mechanisms written by developers and transforms them into an",
                       (0, n.jsx)("i", { children: " incentive landscape" }),
                       ", whereby agreement is reached and miners are forced to act in",
                       (0, n.jsx)("i", {
@@ -295,7 +295,7 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "YC is what makes Bittensor fundamentally distinct from various other blockchain projects - most of which write their validation systems ",
+                      "YC is what makes Atomic fundamentally distinct from various other blockchain projects - most of which write their validation systems ",
                       (0, n.jsx)("i", {
                         children: "directly into their chain",
                       }),
@@ -318,7 +318,7 @@
                       "The ability to ",
                       (0, n.jsx)("strong", {
                         children:
-                          "write a multiplicity of Bittensor incentive systems",
+                          "write a multiplicity of Atomic incentive systems",
                       }),
                       " and have them ",
                       (0, n.jsx)("strong", {
@@ -329,12 +329,12 @@
                       (0, n.jsx)("i", { children: " just cool" }),
                       ", it's absolutely essential for building decentralized organizations which ",
                       (0, n.jsx)("i", { children: "can compete" }),
-                      " with large corporations. Google has an AI team, backed by a storage team, plus a compute team all under one roof - whilst you (without Bittensor) are forced to use 10 different token economic markets on 10 different chains.",
+                      " with large corporations. Google has an AI team, backed by a storage team, plus a compute team all under one roof - whilst you (without Atomic) are forced to use 10 different token economic markets on 10 different chains.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor gives you all of it: an AI team, a storage team, a compute team, and anything else that can be dreamed of - all under a ",
+                      "Atomic gives you all of it: an AI team, a storage team, a compute team, and anything else that can be dreamed of - all under a ",
                       (0, n.jsx)("i", { children: "single token framework" }),
                       ", turning TAO holders into effective Decentralized Cloud Providers,",
                       (0, n.jsx)("strong", {
@@ -343,18 +343,18 @@
                       }),
                       ". TAO ",
                       (0, n.jsx)("i", { children: "is the bridge" }),
-                      " between clients and this mega-computer, plus the resources that are being created, through various subnetwork mechanisms, in Bittensor. This is the main functionality of TAO. Functionality, which hitherto was only within the reach of immense supercorps like OpenAI, is now accessible - in one ",
+                      " between clients and this mega-computer, plus the resources that are being created, through various subnetwork mechanisms, in Atomic. This is the main functionality of TAO. Functionality, which hitherto was only within the reach of immense supercorps like OpenAI, is now accessible - in one ",
                       (0, n.jsx)("i", { children: "non-permissioned " }),
                       " place.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor's technology was ",
+                      "Atomic's technology was ",
                       (0, n.jsx)("strong", {
                         children: "built for developers primarily",
                       }),
-                      ". But, just like any Information Technology, Bittensor enables business opportunities. Whilst its initial support is vastly driven by a community of technologists, Bittensor's impact will multiply once business professionals also understand the potential of decentralizing applications powered by intelligence",
+                      ". But, just like any Information Technology, Atomic enables business opportunities. Whilst its initial support is vastly driven by a community of technologists, Atomic's impact will multiply once business professionals also understand the potential of decentralizing applications powered by intelligence",
                     ],
                   }),
                 ],
@@ -373,7 +373,7 @@
                   (0, n.jsx)("p", {
                     style: { textAlign: "left", width: "100%" },
                     children:
-                      "If you fall in one of these categories, you are in an excellent position to start diving into Bittensor:",
+                      "If you fall in one of these categories, you are in an excellent position to start diving into Atomic:",
                   }),
                   (0, n.jsxs)("ol", {
                     className: a().list,
@@ -404,14 +404,14 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Bittensor is open to innovators and, for the first time, developers have the opportunity to monetize their ideas for the grand resource allocation system ",
+                      "Atomic is open to innovators and, for the first time, developers have the opportunity to monetize their ideas for the grand resource allocation system ",
                       (0, n.jsx)("i", { children: "that they want" }),
                       ". Drawing together huge quantities of resources, under incentive driven compute systems -",
                       (0, n.jsx)("i", {
                         children:
                           "without the need to engage in the creation of an entirely new chain",
                       }),
-                      ". Bittensor provides a platform to build these systems in one place. It thus provides a one-stop-shop for those seeking",
+                      ". Atomic provides a platform to build these systems in one place. It thus provides a one-stop-shop for those seeking",
                       " ",
                       (0, n.jsxs)("i", {
                         children: [
@@ -432,7 +432,7 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "At its core, Bittensor is a horizontally scalable, cryptography-based, resource-allocation protocol that is also open to contribution. However, what makes it so powerful from a technical standpoint is what makes it equally attractive from a humanistic perspective. That's because the inverse of Bittensor's ability to attract resources from the wider world, ",
+                      "At its core, Atomic is a horizontally scalable, cryptography-based, resource-allocation protocol that is also open to contribution. However, what makes it so powerful from a technical standpoint is what makes it equally attractive from a humanistic perspective. That's because the inverse of Atomic's ability to attract resources from the wider world, ",
                       (0, n.jsx)("strong", { children: "is" }),
                       " its ability to distribute real ",
                       (0, n.jsx)("i", { children: "visceral ownership" }),
@@ -441,7 +441,7 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "In essence, Bittensor's permeability to contribution is its permeability to control. You can own the network in the same manner I, as a long-term developer of Bittensor, can own it. This is a quality of open ownership systems which, like its predecessor ",
+                      "In essence, Atomic's permeability to contribution is its permeability to control. You can own the network in the same manner I, as a long-term developer of Atomic, can own it. This is a quality of open ownership systems which, like its predecessor ",
                       (0, n.jsx)("i", { children: "open source software" }),
                       ", reevaluates what ",
                       (0, n.jsx)("i", { children: "makes things good" }),
@@ -497,7 +497,7 @@
                   }),
                   (0, n.jsxs)("p", {
                     children: [
-                      "Technologically, Bittensor makes sense;",
+                      "Technologically, Atomic makes sense;",
                       (0, n.jsxs)("strong", {
                         children: [
                           " ",
@@ -515,7 +515,7 @@
                           "open-ownership systems are tools for the bottom-up placing of these resources, directly into people's hands",
                         ],
                       }),
-                      ". Bittensor is the ecosystem and TAO is the mycelial network connecting humanity with the future of Artificial Intelligence, such that its control can be ethically united with a life-affirming and truly democratic future for humanity, alongside machines.",
+                      ". Atomic is the ecosystem and TAO is the mycelial network connecting humanity with the future of Artificial Intelligence, such that its control can be ethically united with a life-affirming and truly democratic future for humanity, alongside machines.",
                     ],
                   }),
                   (0, n.jsxs)("p", {
@@ -532,7 +532,7 @@
                   }),
                   (0, n.jsx)("p", {
                     children:
-                      "Bittensor finds itself at the precipice of a completely new-age of computing: supercomputers via abstracted markets. This precedence shines forth by taking the greatest financial innovation our planet has ever seen, then wedding it to the real world: Bitcoin meets Artificial Intelligence. We can do it. We have the people, we have the desire, and we have the technology.",
+                      "Atomic finds itself at the precipice of a completely new-age of computing: supercomputers via abstracted markets. This precedence shines forth by taking the greatest financial innovation our planet has ever seen, then wedding it to the real world: Bitcoin meets Artificial Intelligence. We can do it. We have the people, we have the desire, and we have the technology.",
                   }),
                 ],
               }),

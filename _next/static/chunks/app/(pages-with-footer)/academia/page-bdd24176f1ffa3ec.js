@@ -64,7 +64,7 @@
                   (0, i.jsx)("p", {
                     className: r().paper_title,
                     children:
-                      "Incentivizing Intelligence: The Bittensor Approach",
+                      "Incentivizing Intelligence: The Atomic Approach",
                   }),
                   (0, i.jsx)("p", {
                     className: r().subtitle,
@@ -72,7 +72,7 @@
                       "Jacob Steeves / Ala Shaabana / Yuqian Hu / Francois Luus / Sin Tai Liu / Jacqueline Dawn Tasker-Steeves / Opentensor Foundation",
                   }),
                   (0, i.jsx)(l(), {
-                    src: "/images/icons/double-tao-logo.svg",
+                    src: "/images/icons/double-tao-logo.png",
                     width: 40,
                     height: 40,
                     alt: "double tao logo",
@@ -118,14 +118,14 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "In this paper, we introduce the Bittensor Network: a decentralized peer-to-peer machine learning protocol. In the network, machine intelligence is measured by other intelligence systems in a continuous and asynchronous peer-to-peer (P2P) fashion across the internet. Models are ranked for informational production regardless of the subjective task or dataset used to train them. By changing the basis against which machine intelligence is measured, the market can reward intelligence that is applicable to a much larger set of objectives while still preserving the unique value of legacy systems and smaller diverse systems that find niches within the reward landscape. The constructed market uses a digital ledger to record ranks and to provide incentives to the researchers, thus allowing them to directly monetize their machine intelligence work. It is divided into two layers: the AI layer and the Blockchain layer (Figure 1).",
+                      "In this paper, we introduce the Atomic Network: a decentralized peer-to-peer machine learning protocol. In the network, machine intelligence is measured by other intelligence systems in a continuous and asynchronous peer-to-peer (P2P) fashion across the internet. Models are ranked for informational production regardless of the subjective task or dataset used to train them. By changing the basis against which machine intelligence is measured, the market can reward intelligence that is applicable to a much larger set of objectives while still preserving the unique value of legacy systems and smaller diverse systems that find niches within the reward landscape. The constructed market uses a digital ledger to record ranks and to provide incentives to the researchers, thus allowing them to directly monetize their machine intelligence work. It is divided into two layers: the AI layer and the Blockchain layer (Figure 1).",
                   }),
                   (0, i.jsxs)("div", {
                     className: r().image_container,
                     children: [
                       (0, i.jsx)("img", {
                         src: "/images/academia/section_1_1.png",
-                        alt: "schematic of the bittensor network",
+                        alt: "schematic of the Atomic network",
                         className: r().image_container_image,
                       }),
                       (0, i.jsxs)("p", {
@@ -134,7 +134,7 @@
                             className: r().image_container_caption_no,
                             children: "Figure 1 / ",
                           }),
-                          "schematic of the bittensor network.",
+                          "schematic of the Atomic network.",
                         ],
                       }),
                     ],
@@ -150,7 +150,7 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The Blockchain layer is a layer-0 blockchain based on Polkadot Substrate (Wood [2016]), and is responsible for enforcing the consensus mechanism, ensuring peer identity, and incentivizing network peers. The blockchain layer resides directly underneath the AI layer, and communication between the two layers is achieved through inter-process communication. In order to fairly distribute incentive across all of the participating peers, the Bittensor network leverages a staked weighted trust through consensus. Peers are incentivized to rank each other, and highly ranked peers will receive additional rewards. The blockchain does not trust rankings from any individual peer on the network, but rather trusts the collective rankings from all of the participating peers. In order to submit their rankings, peers must first register their wallets, and a pair of cryptographic keys that are unique to each peer. The same keys will be required to sign all transactions to the chain and all communication requests between peers. These cryptographic keys will serve as the main identification tool for peers on the network.",
+                      "The Blockchain layer is a layer-0 blockchain based on Polkadot Substrate (Wood [2016]), and is responsible for enforcing the consensus mechanism, ensuring peer identity, and incentivizing network peers. The blockchain layer resides directly underneath the AI layer, and communication between the two layers is achieved through inter-process communication. In order to fairly distribute incentive across all of the participating peers, the Atomic network leverages a staked weighted trust through consensus. Peers are incentivized to rank each other, and highly ranked peers will receive additional rewards. The blockchain does not trust rankings from any individual peer on the network, but rather trusts the collective rankings from all of the participating peers. In order to submit their rankings, peers must first register their wallets, and a pair of cryptographic keys that are unique to each peer. The same keys will be required to sign all transactions to the chain and all communication requests between peers. These cryptographic keys will serve as the main identification tool for peers on the network.",
                   }),
                   (0, i.jsx)("p", {
                     children:
@@ -234,23 +234,23 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "In addition to inference and training, the AI layer is responsible for abstracting away the Bittensor kernel and ensuring input/output compatibility of a node’s neural network with the rest of the network’s peers. Each node on the Bittensor Protocol contains a single neural network. From now on, we will be referring to these nodes as neurons; this is not to be confused with individual neurons in traditional neural networks.",
+                      "In addition to inference and training, the AI layer is responsible for abstracting away the Atomic kernel and ensuring input/output compatibility of a node’s neural network with the rest of the network’s peers. Each node on the Atomic Protocol contains a single neural network. From now on, we will be referring to these nodes as neurons; this is not to be confused with individual neurons in traditional neural networks.",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The Bittensor Protocol is composed of n parameterized functions (or neurons) F = f0, ..., fj , ...fn distributed in a peer-to-peer fashion. Each neuron is holding zero or more network weights S = [si ] (or “stake”) represented on a digital ledger. Our goal is the distribution of stake I – as incentive – to peers who have contributed the most informational value.",
+                      "The Atomic Protocol is composed of n parameterized functions (or neurons) F = f0, ..., fj , ...fn distributed in a peer-to-peer fashion. Each neuron is holding zero or more network weights S = [si ] (or “stake”) represented on a digital ledger. Our goal is the distribution of stake I – as incentive – to peers who have contributed the most informational value.",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "Figure 2 shows a high level overview of the forward and backward passes performed on the Bittensor network and describes the process by which neurons train on the Bittensor protocol. Similarly to the Hivemind proposal by Ryabinin et al., peers are able to request others for forward passes and subsequently propagate backward gradients over the wire. By querying for information, Bittensor offers inference across all of the nodes serving on the network. Unique to Bittensor, this enables an distributed trust-less style of machine learning where requests are authenticated and verified using the digital ledger. The Blockchain layer ensures the identity of each peer through a unique cryptographic key and maintains the integrity of incentive distribution and rankings over the entire network.",
+                      "Figure 2 shows a high level overview of the forward and backward passes performed on the Atomic network and describes the process by which neurons train on the Atomic protocol. Similarly to the Hivemind proposal by Ryabinin et al., peers are able to request others for forward passes and subsequently propagate backward gradients over the wire. By querying for information, Atomic offers inference across all of the nodes serving on the network. Unique to Atomic, this enables an distributed trust-less style of machine learning where requests are authenticated and verified using the digital ledger. The Blockchain layer ensures the identity of each peer through a unique cryptographic key and maintains the integrity of incentive distribution and rankings over the entire network.",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "In Bittensor, peers who are highly ranked receive the most incentive. Peers use the outputs of others F(x) = [f0(x)...fn(x)] as inputs to themselves f(F(x)) and learn a set of weights W = [wi,j ] where peer i is responsible for setting the i th row through transactions on a digital ledger. We describe peer ranking in more detail in Section 4.",
+                      "In Atomic, peers who are highly ranked receive the most incentive. Peers use the outputs of others F(x) = [f0(x)...fn(x)] as inputs to themselves f(F(x)) and learn a set of weights W = [wi,j ] where peer i is responsible for setting the i th row through transactions on a digital ledger. We describe peer ranking in more detail in Section 4.",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "Figure 3 shows a cutaway diagram of two neurons on the Bittensor network. Synapses function as the main transmitter between neurons and ensure all of the transmission tensors are formatted in correspondence to the Bittensor protocol. Each synapse dictates a different ML task, and therefore follows a different compression and communication process. This ensures that all logits and embeddings being transported over the Bittensor protocol are sanitized, correct, and contribute useful information. If a neuron is acting maliciously or sending incorrect tensors across the wire, Synapses ensure that their rankings and rewards are penalized as a result. Currently, the Bittensor network is focused on large language modelling and contains 4 separate synapses for text-related tasks ( LastHiddenState, CausalLM, CausalLMNext, and Seq2Seq). Prior works have shown that large language models can be continually fine-tuned for improved performance for downstream tasks (Scialom et al. [2022],Ouyang et al. [2022]). The Bittensor protocol achieves the same continual fine-tuning process while being fully distributed and trust-less over the web.",
+                      "Figure 3 shows a cutaway diagram of two neurons on the Atomic network. Synapses function as the main transmitter between neurons and ensure all of the transmission tensors are formatted in correspondence to the Atomic protocol. Each synapse dictates a different ML task, and therefore follows a different compression and communication process. This ensures that all logits and embeddings being transported over the Atomic protocol are sanitized, correct, and contribute useful information. If a neuron is acting maliciously or sending incorrect tensors across the wire, Synapses ensure that their rankings and rewards are penalized as a result. Currently, the Atomic network is focused on large language modelling and contains 4 separate synapses for text-related tasks ( LastHiddenState, CausalLM, CausalLMNext, and Seq2Seq). Prior works have shown that large language models can be continually fine-tuned for improved performance for downstream tasks (Scialom et al. [2022],Ouyang et al. [2022]). The Atomic protocol achieves the same continual fine-tuning process while being fully distributed and trust-less over the web.",
                   }),
                   (0, i.jsxs)("div", {
                     className: r().image_container,
@@ -266,7 +266,7 @@
                             className: r().image_container_caption_no,
                             children: "Figure 3 / ",
                           }),
-                          "Neurons training on the Bittensor Protocol. The Bittensor protocol utilizes a mixture-ofexperts (MoE) architecture with each remote peer acting as a single expert(Shazeer et al. [2017]; Ryabinin and Gusev [2020]).",
+                          "Neurons training on the Atomic Protocol. The Atomic protocol utilizes a mixture-ofexperts (MoE) architecture with each remote peer acting as a single expert(Shazeer et al. [2017]; Ryabinin and Gusev [2020]).",
                         ],
                       }),
                     ],
@@ -285,7 +285,7 @@
                             className: r().image_container_caption_no,
                             children: "Figure 4 / ",
                           }),
-                          "Neurons training on the Bittensor Protocol. The Bittensor protocol utilizes a mixture-ofexperts (MoE) architecture with each remote peer acting as a single expert(Shazeer et al. [2017]; Ryabinin and Gusev [2020]).",
+                          "Neurons training on the Atomic Protocol. The Atomic protocol utilizes a mixture-ofexperts (MoE) architecture with each remote peer acting as a single expert(Shazeer et al. [2017]; Ryabinin and Gusev [2020]).",
                         ],
                       }),
                     ],
@@ -301,7 +301,7 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "A crucial element of the Bittensor Protocol is the production of an accurate ranking method. Peers are ranked based on their informational significance to the overall collective, represented by a ranking r = [ri ] where score ri ∈ R represents a participant’s contribution to the benchmark. This is done by calculating its Shapley value ϕ (Shapley [1952]) which is a way to fairly distribute the contribution for each participant in a group by permuting through all possible combinations of the subsets:",
+                      "A crucial element of the Atomic Protocol is the production of an accurate ranking method. Peers are ranked based on their informational significance to the overall collective, represented by a ranking r = [ri ] where score ri ∈ R represents a participant’s contribution to the benchmark. This is done by calculating its Shapley value ϕ (Shapley [1952]) which is a way to fairly distribute the contribution for each participant in a group by permuting through all possible combinations of the subsets:",
                   }),
                   (0, i.jsx)("div", {
                     className: r().image_container,
@@ -329,7 +329,7 @@
                             className: r().image_container_caption_no,
                             children: "Figure 5 / ",
                           }),
-                          "Shapley score comparison between large language models (LLM) of various sizes (GPT 2 — 117M, GPT-neo — 125M, GPT-J — 6B, GPT-neox — 30B) (Wang and Komatsuzaki [2021] , Black et al. [2022]) by a single validator. The scoring was done on the Bittensor network, and models were scored based on their performance at last token prediction. Larger models capable of achieving lower loss are given a higher Shapley score by their peer.",
+                          "Shapley score comparison between large language models (LLM) of various sizes (GPT 2 — 117M, GPT-neo — 125M, GPT-J — 6B, GPT-neox — 30B) (Wang and Komatsuzaki [2021] , Black et al. [2022]) by a single validator. The scoring was done on the Atomic network, and models were scored based on their performance at last token prediction. Larger models capable of achieving lower loss are given a higher Shapley score by their peer.",
                         ],
                       }),
                     ],
@@ -352,7 +352,7 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The sparse combinations of peers effectively represent a subset of the possible permutations within the complete set of N peers. Given enough samples, we can recover the full Shapley values and a cooperative ranking r for the entire network. Benchmarks of several LLMs currently running on the Bittensor network are showcased in Figure 5.",
+                      "The sparse combinations of peers effectively represent a subset of the possible permutations within the complete set of N peers. Given enough samples, we can recover the full Shapley values and a cooperative ranking r for the entire network. Benchmarks of several LLMs currently running on the Atomic network are showcased in Figure 5.",
                   }),
                 ],
               }),
@@ -361,15 +361,15 @@
                 children: [
                   (0, i.jsx)("p", {
                     className: r().subtitle,
-                    children: "05 the current state of the bittensor network",
+                    children: "05 the current state of the Atomic network",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The Bittensor network officially launched in November 2021. As of writing this paper, the network contains 4096 peers; all of which are running a language model that is actively querying others for information or serving requests from other peers on the network. With a total sum of 500 Billion parameters running across 4096 peers, it is possible to query and infer from every node in the network and receive an output of logits, embeddings, or plain text responses given a prompt. Each peer is either running a custom language model, or a pre-trained model such as GPT-J (Wang and Komatsuzaki [2021]), GPT-Neo, (Black et al. [2021]), or GPT-2 (Radford et al. [2019]) downloaded from HuggingFace API (Wolf et al. [2020]).",
+                      "The Atomic network officially launched in November 2021. As of writing this paper, the network contains 4096 peers; all of which are running a language model that is actively querying others for information or serving requests from other peers on the network. With a total sum of 500 Billion parameters running across 4096 peers, it is possible to query and infer from every node in the network and receive an output of logits, embeddings, or plain text responses given a prompt. Each peer is either running a custom language model, or a pre-trained model such as GPT-J (Wang and Komatsuzaki [2021]), GPT-Neo, (Black et al. [2021]), or GPT-2 (Radford et al. [2019]) downloaded from HuggingFace API (Wolf et al. [2020]).",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "In 2022, the protocol underwent several algorithmic, consensus, and infrastructure changes to ensure correctness and scalability. The Bittensor team is now training more sophisticated models directly on the Bittensor protocol to work towards achieving performance comparable to current state of the art models.",
+                      "In 2022, the protocol underwent several algorithmic, consensus, and infrastructure changes to ensure correctness and scalability. The Atomic team is now training more sophisticated models directly on the Atomic protocol to work towards achieving performance comparable to current state of the art models.",
                   }),
                 ],
               }),
@@ -386,11 +386,11 @@
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The paper began with the definition of the Bittensor Protocol, a P2P network composed of abstractly defined intelligence models. Peers are able to directly query each other for informational embeddings that serve as inputs to their own models. Training can occur by subsequently propagating backward gradients to responsive peers. We then showed how this framework allows us to produce a cooperative game-theoretic ranking for each peer based on its informational value for the network. These scores are passed on to a digital ledger where a trust-based incentivization is distributed. Peers that earn high scores from a majority of stake holders will receive the majority of the incentive. We then demonstrated how this incentive scheme based on peer connectivity prevents participants from forming dishonest sub-graphs such that over time, dishonest sub-graphs decay into irrelevance.",
+                      "The paper began with the definition of the Atomic Protocol, a P2P network composed of abstractly defined intelligence models. Peers are able to directly query each other for informational embeddings that serve as inputs to their own models. Training can occur by subsequently propagating backward gradients to responsive peers. We then showed how this framework allows us to produce a cooperative game-theoretic ranking for each peer based on its informational value for the network. These scores are passed on to a digital ledger where a trust-based incentivization is distributed. Peers that earn high scores from a majority of stake holders will receive the majority of the incentive. We then demonstrated how this incentive scheme based on peer connectivity prevents participants from forming dishonest sub-graphs such that over time, dishonest sub-graphs decay into irrelevance.",
                   }),
                   (0, i.jsx)("p", {
                     children:
-                      "The result of these various novel mechanisms is an intelligence market that rewards participants for producing knowledge while enabling the sharing of this knowledge for new learners in the system. Similar to financial and other Web3 markets, the market for intelligence actively encourages innovations among its participants and rewards for those who manage to provide unique knowledge to the collective. In terms of ML, Bittensor provides incentives for participants to consistently improve and finetune their models over the network. This combination of Web3 and ML introduces an unique network where a decentralized global contribution of compute can be put towards the advancement of machine intelligence.",
+                      "The result of these various novel mechanisms is an intelligence market that rewards participants for producing knowledge while enabling the sharing of this knowledge for new learners in the system. Similar to financial and other Web3 markets, the market for intelligence actively encourages innovations among its participants and rewards for those who manage to provide unique knowledge to the collective. In terms of ML, Atomic provides incentives for participants to consistently improve and finetune their models over the network. This combination of Web3 and ML introduces an unique network where a decentralized global contribution of compute can be put towards the advancement of machine intelligence.",
                   }),
                 ],
               }),
