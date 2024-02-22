@@ -642,7 +642,7 @@
               (0, s.jsxs)("p", {
                 className: j().card_container_value,
                 children: [
-                  t && (0, s.jsx)(h.Z.TaoSymbol, { children: "τ" }),
+                  t && (0, s.jsx)(h.Z.TaoSymbol, { children: "" }),
                   n,
                 ],
               }),
@@ -740,7 +740,7 @@
                                   children: [
                                     (0, s.jsx)("span", {
                                       className: N().tao_symbol,
-                                      children: "τ",
+                                      children: "",
                                     }),
                                     e.transferValue,
                                   ],

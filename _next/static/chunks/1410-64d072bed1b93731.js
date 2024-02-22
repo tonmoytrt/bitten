@@ -149,7 +149,7 @@
             href: "#",
             isLinkButton: !0,
             children: [
-              (0, r.jsx)("span", { children: "τ" }),
+              (0, r.jsx)("span", { children: "" }),
               (0, r.jsx)("span", { children: a }),
             ],
           }),

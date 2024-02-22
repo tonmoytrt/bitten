@@ -406,7 +406,7 @@
                                 children: [
                                   (0, t.jsx)("span", {
                                     className: i().tao_symbol,
-                                    children: "τ",
+                                    children: "",
                                   }),
                                   e.stakeAmount,
                                 ],
