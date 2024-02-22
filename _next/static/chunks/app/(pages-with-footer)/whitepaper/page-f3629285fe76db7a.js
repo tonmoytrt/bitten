@@ -112,7 +112,7 @@
                     children: "YUMA RAO",
                   }),
                   (0, i.jsx)(l(), {
-                    src: "/images/icons/double-tao-logo.png",
+                    src: "/images/icons/double-tao-logo.svg",
                     width: 40,
                     height: 40,
                     alt: "double tao logo",

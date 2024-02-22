@@ -117,7 +117,7 @@
                     }),
                     (0, o.jsx)("br", {}),
                     (0, o.jsx)(r.rU, {
-                      href: "https://twitter.com/atomicerc/Atomic-charter/",
+                      href: "https://github.com/opentensor/Atomic-charter/",
                       target: "_blank",
                       rel: "noreferrer",
                       style: { fontSize: "0.6rem" },

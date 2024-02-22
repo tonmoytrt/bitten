@@ -72,7 +72,7 @@
                       "Jacob Steeves / Ala Shaabana / Yuqian Hu / Francois Luus / Sin Tai Liu / Jacqueline Dawn Tasker-Steeves / Opentensor Foundation",
                   }),
                   (0, i.jsx)(l(), {
-                    src: "/images/icons/double-tao-logo.png",
+                    src: "/images/icons/double-tao-logo.svg",
                     width: 40,
                     height: 40,
                     alt: "double tao logo",

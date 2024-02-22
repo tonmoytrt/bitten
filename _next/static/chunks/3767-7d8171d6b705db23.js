@@ -49,12 +49,12 @@
           { title: "Academia", url: "#academia", isExternal: !1 },
           {
             title: "Telegram",
-            url: "https://t.me/atomserc",
+            url: "tglink",
             isExternal: !0,
           },
           {
             title: "Twitter",
-            url: "https://twitter.com/atomicerc",
+            url: "xlink",
             isExternal: !0,
           },
         ],
