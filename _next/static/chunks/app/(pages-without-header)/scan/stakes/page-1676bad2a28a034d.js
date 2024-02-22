@@ -458,7 +458,7 @@
                       (0, t.jsx)("div", {
                         className: i().section_3,
                         children: (0, t.jsx)(o.O, {
-                          placeholderText: "T 50.00",
+                          placeholderText: "",
                           isLoaded: !1,
                         }),
                       }),
