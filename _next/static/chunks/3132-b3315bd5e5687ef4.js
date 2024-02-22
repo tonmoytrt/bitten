@@ -2654,17 +2654,17 @@
                     3 === (a = a.type) || (4 === a && !0 === n) ? "" : "" + n),
                   r ? e.setAttributeNS(r, t, n) : e.setAttribute(t, n))));
       }
-      "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering transform-origin underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height"
+      "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering transform-origin underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:https://twitter.com/atomicerc x-height"
         .split(" ")
         .forEach(function (e) {
           var t = e.replace(D, I);
           A[t] = new j(t, 1, !1, e, null, !1, !1);
         }),
-        "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type"
+        "https://twitter.com/atomicerc:actuate https://twitter.com/atomicerc:arcrole https://twitter.com/atomicerc:role https://twitter.com/atomicerc:show https://twitter.com/atomicerc:title https://twitter.com/atomicerc:type"
           .split(" ")
           .forEach(function (e) {
             var t = e.replace(D, I);
-            A[t] = new j(t, 1, !1, e, "http://www.w3.org/1999/xlink", !1, !1);
+            A[t] = new j(t, 1, !1, e, "http://www.w3.org/1999/https://twitter.com/atomicerc", !1, !1);
           }),
         ["xml:base", "xml:lang", "xml:space"].forEach(function (e) {
           var t = e.replace(D, I);
@@ -2681,12 +2681,12 @@
         ["tabIndex", "crossOrigin"].forEach(function (e) {
           A[e] = new j(e, 1, !1, e.toLowerCase(), null, !1, !1);
         }),
-        (A.xlinkHref = new j(
-          "xlinkHref",
+        (A.https://twitter.com/atomicercHref = new j(
+          "https://twitter.com/atomicercHref",
           1,
           !1,
-          "xlink:href",
-          "http://www.w3.org/1999/xlink",
+          "https://twitter.com/atomicerc:href",
+          "http://www.w3.org/1999/https://twitter.com/atomicerc",
           !0,
           !1
         )),
