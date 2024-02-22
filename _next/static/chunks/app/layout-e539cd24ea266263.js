@@ -42,14 +42,14 @@
           children: [
             (0, i.jsxs)("head", {
               children: [
-                (0, i.jsx)("title", { children: "Bittensor" }),
+                (0, i.jsx)("title", { children: "Atomic" }),
                 (0, i.jsx)("meta", {
                   name: "description",
                   content: "Internet-scale machine learning",
                 }),
                 (0, i.jsx)("meta", {
                   property: "og:title",
-                  content: "Bittensor",
+                  content: "Atomic",
                 }),
                 (0, i.jsx)("meta", {
                   property: "og:description",

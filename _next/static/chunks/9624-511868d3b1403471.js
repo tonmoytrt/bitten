@@ -1538,7 +1538,7 @@
           {
             prefix: 13116,
             network: "bittensor",
-            displayName: "Bittensor",
+            displayName: "Atomic",
             symbols: ["TAO"],
             decimals: [9],
             standardAccount: "*25519",
