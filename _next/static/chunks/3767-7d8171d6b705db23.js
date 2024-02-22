@@ -93,7 +93,7 @@
         })),
         d = [
           { label: "Docs", href: "https://docs.atomicsor.com/" },
-          { label: "About", href: "https://atomicsor.com/about" },
+          { label: "About", href: "about.html" },
           { label: "Whitepaper", href: "https://atomicsor.com/whitepaper" },
           { label: "Charter", href: "https://atomicsor.com/charter" },
           { label: "Academia", href: "https://atomicsor.com/academia" },
